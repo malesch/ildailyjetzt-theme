@@ -1,0 +1,155 @@
+/*
+toothpaste: 93f7fb;
+yellow: f6fc50;
+blue: 3c5b9e;
+darkgrey: 606060
+pinkie: ed828a
+green: 0fbc17
+*/
+
+.uppercase {
+	letter-spacing:1px;
+text-transform:uppercase;
+
+}
+
+.toothpaste {
+color:#93f7fb;	
+}
+
+.green {
+color:#0fbc17;	
+}
+
+.yellow {
+color:#f6fc50;	
+}
+
+.blue {
+	color:#3c5b9e;
+}
+
+.darkgrey {
+color:#606060;	
+}
+
+.cleargrey {
+color:#c0c1c2;	
+}
+
+.pinkie {
+	color:#ed828a;
+}
+
+.buy {
+color:#dedede;
+padding:20px;
+line-height:16px;
+letter-spacing:0px;
+
+font-size:13px;
+font-family:'isocpeurregular',"Courier New",Courier,  monospace
+}
+body {
+font-family:'isocteurregular';
+font-size:13px;
+line-height:1.3em;
+letter-spacing:-2px;
+color:#69686F;
+}
+
+.image {
+border:dotted 1px #cc0000 !important;
+}
+
+a,.grey {
+color:#6796a8;
+}
+
+.noview {
+display:none;
+}
+
+.mail {
+
+
+background:url('images/1.png') 0px 3px no-repeat;
+
+}
+
+.calcicon {
+display:block;
+text-align:right;
+padding-right:35px;
+background:url('images/calc.png') 	100% 0% no-repeat;
+color:#69686F;
+}
+
+.calc {
+letter-spacing:2px;
+}
+
+.facebook {
+
+
+
+}
+
+.logo {
+text-transform:uppercase;
+letter-spacing:-1px;
+font-size:13px;
+}
+
+.subscribe {
+letter-spacing:auto;
+font-size:30px;
+line-height:2.8em;
+color:#ffffff;
+}
+
+.what {
+color:#dedede;
+padding:20px;
+line-height:16px;
+letter-spacing:0px;
+font-weight:normal;
+font-family:"Courier New",Courier,  monospace
+}
+
+.what .right {
+text-align:right;
+}
+
+.what .center {
+text-align:center;
+}
+
+.greybg {
+text-transform:uppercase;
+background-color:#eeeeef;
+font-size:13px;
+letter-spacing:2px;
+font-family:'isocpeurregular';
+}
+
+.subscribe input {
+font-size:30px;
+padding:10px;
+width:450px;
+border:solid 1px #69686F;
+}
+
+.subscribe .submit {
+padding:10px;
+position:relative;
+bottom:1px;
+width:200px;
+border:none;
+color:#ffffff;
+font-family:'isocteurregular';
+background-color:#5A8494;
+}
+
+
+
