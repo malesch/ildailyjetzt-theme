@@ -1,149 +1,137 @@
-/*general layout */
+/* general layout */
 html, body, #document {height: 100%;}
 body > #document {height: auto; min-height: 100%;margin-top:0px;overflow:hidden}
 
-.page,#container
+.page, #container
 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1206px;
-	
-	
 }
 
 #container {
-padding-top:25px;
+	padding-top: 25px;
 }
 
 .top {
-position:absolute;
-top:0px;
-
+	position: absolute;
+	top: 0px;
 }
 
 #header {
-height:154px;
-position:relative;
+	height: 154px;
+	position: relative;
 }
 
 .paddtop {
-margin-top:20px;
+	margin-top: 20px;
 }
 
-.fancybox-wrap { 
-  top: 140px !important; 
- left:159px !important;
- position:absolute !important;
-
- 
-  
-  
+.fancybox-wrap {
+	top: 140px !important;
+	left: 159px !important;
+	position: absolute !important;
 }
+
 .fancybox-lock {
 	overflow-x: hidden !important;
 	overflow-y: auto !important;
 }
 
-
-
-
 .fancybox-overlay {
- overflow:visible !important;
+	overflow: visible !important;
 }
 
 .fancybox-skin {
-border:solid 1px #242424 !important;
-width:814px ! important;
-
+	border: solid 1px #242424 !important;
+	width: 814px ! important;
 }
 
 .fancybox-inner,.page {
- overflow:visible !important;
+	overflow: visible !important;
 }
+
 #left {
-position:absolute;
-top:0px;
-left:0px;
-width:112px;
-text-align:right;
-margin-top:20px;
-white-space:nowrap;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 112px;
+	text-align: right;
+	margin-top: 20px;
+	white-space: nowrap;
 }
 
 #right {
-position:absolute;
-top:0px;
-left:1034px;
-width:172px;
-text-align:left;
-margin-top:25px;
-white-space:nowrap;
+	position: absolute;
+	top: 0px;
+	left: 1034px;
+	width: 172px;
+	text-align: left;
+	margin-top: 25px;
+	white-space: nowrap;
 }
 
 #inbetween {
-position:absolute;
-top:0px;
-left:159px;
-width:700px;
-text-align:left;
-margin-top:19px;
-
-
+	position: absolute;
+	top: 0px;
+	left: 159px;
+	width: 700px;
+	text-align: left;
+	margin-top: 19px;
 }
+
 .lazy {
-  display: none;
+	display: none;
 }
+
 .alignleft {
-float:left;	
+	float: left;
 }
 
 .clear {
-clear:both;	
+	clear: both;
 }
 
 .delimiter {
-height:3px;
-display:block;	
+	height: 3px;
+	display: block;
 }
 
-
 .mail {
-position:absolute;
-top:-10px;
-right:-3px;
-width:35px;
-height:25px;
+	position: absolute;
+	top: -10px;
+	right: -3px;
+	width: 35px;
+	height: 25px;
 }
 
 .facebook {
-position:absolute;
-top:95px;
-right:0px;
-height:25px;
+	position: absolute;
+	top: 95px;
+	right: 0px;
+	height: 25px;
 }
 
 .calcicon {
-position:absolute;
-top:45px;
-right:0px;
-height:35px;
-width:150px;
+	position: absolute;
+	top: 45px;
+	right: 0px;
+	height: 35px;
+	width: 150px;
 }
 
-
 #center {
-position:relative;
-width:816px;
-margin:0px 0px 30px 159px;
+	position: relative;
+	width: 816px;
+	margin: 0px 0px 30px 159px;
 }
 
 #center img {
-width:816px;
-
-margin-bottom:161px
+	width: 816px;
+	margin-bottom: 161px
 }
 
 .subscribe {
-margin:40px;
-height:460px;
+	margin: 40px;
+	height: 460px;
 }

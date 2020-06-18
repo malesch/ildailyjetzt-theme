@@ -1,7 +1,6 @@
-
- @import url(reset.css); 
- @import url(layout.css);
- @import url(colour.css);
+@import url(reset.css);
+@import url(layout.css);
+@import url(colour.css);
 @font-face {
     font-family: 'isocteurregular';
     src: url('isocteur-webfont.eot');
@@ -11,5 +10,4 @@
          url('isocteur-webfont.svg#isocteurregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
