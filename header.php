@@ -11,7 +11,11 @@
         ?>
         </title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-        <link rel="icon" type="image/png" href="<?php echo site_url(); ?>/wp-content/themes/omi/img/favicon.ico" />
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/img/favicon-16x16.png">
+        <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/img/site.webmanifest">
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/js/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
